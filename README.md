@@ -53,7 +53,6 @@ This portfolio website showcases my programming skills and projects. It's built 
 
 [![Product Name Screen Shot][product-screenshot]](https://onnikoodaa.fi)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Folder Structure
 
