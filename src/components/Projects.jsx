@@ -17,23 +17,23 @@ const projectData = [
         languages: ['JavaScript']
     },
     {
-        img: mailImg,
-        title: 'MailImg',
-        languages: ['Css', 'Java']
-    },
-    {
         img: storageImg,
         title: 'StorageImg',
         languages: ['HTML', 'Css']
+    },
+    {
+        img: mailImg,
+        title: 'MailImg',
+        languages: ['Css', 'Java']
     }
 ]
 
 const Projects = () => {
     return (
-        <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-10'>
             <h1 className='text-4xl font-bold text-center text-primary-100'>Projektit</h1>
             <p className='text-center py-8 text-primary-600'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloribus praesentium, ipsum repellendus esse quia, unde explicabo, eos ratione quos nobis quas tempore! Exercitationem, deserunt recusandae facere veniam voluptatibus dignissimos.
+                Tässä muutamia esimerkkejä projekteista, joita olen tehnyt.
             </p>
             <div className='grid sm:grid-cols-2 gap-12'>
                 {projectData.map((project, index) => (

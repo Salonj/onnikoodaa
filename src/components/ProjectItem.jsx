@@ -14,7 +14,7 @@ const ProjectItem = ({ img, title, languages }) => {
                     ))}
                 </ul>
                 <a href="/">
-                    <p className='text-center p-3 rounded-lg bg-primary-400 text-primary-200 font-bold cursor-pointer text-lg'>Lisätietoa</p>
+                    <p className='text-center p-3 rounded-lg bg-primary-400 text-primary-600 font-bold cursor-pointer text-lg'>Lisätietoa</p>
                 </a>
             </div>
         </div>

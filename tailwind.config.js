@@ -27,6 +27,9 @@ export default {
           900: '#850707',
         },
       },
+      fontFamily: {
+        'kanit': ['Kanit', 'sans-serif'],
+      }
     },
   },
 }

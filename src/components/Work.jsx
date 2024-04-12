@@ -8,7 +8,7 @@ const workData = [
         employer: 'Nordic Sports Brand Oy',
         duration: '3 kuukautta',
         details:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.'
+        'Asiakkaiden palveleminen, varaston järjestely ja tilausten käsittely.'
     },
     {
         year: 2022,
@@ -16,7 +16,7 @@ const workData = [
         employer: 'Kesko Oyj',
         duration: '5 kuukautta',
         details:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.'
+        'Ääniohjattu keräily, tavaroiden kuljettaminen lähetysalueille, vastaanottoalueen tilausten purkaminen ja muut varaston avustavat tehtävät.'
     },
     {
         year: 2019,
@@ -24,13 +24,13 @@ const workData = [
         employer: 'KLVL ry, Kuuloliitto ry, Lapci ry, Kuurojen Palvelusäätiö ry',
         duration: 'keikkatyö',
         details:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.'
+        'Leikkien, pelien ja tapahtumien suunnittelu ja toteutus, sekä leiriläisten ohjaaminen eri toiminnoissa ja lasten turvallisuudesta huolehtiminen.'
     }
 ]
 const Work = () => {
     return (
-        <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-            <h1 className='text-4xl font-bold text-center text-primary-100'>Work</h1>
+        <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-10'>
+            <h1 className='text-4xl font-bold text-center text-primary-100 mb-4'>Työkokemus</h1>
             {workData.map((item, index) => (
                 <WorkItem
                     key={index}
