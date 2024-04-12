@@ -13,7 +13,7 @@ const ProjectItem = ({ img, title, languages }) => {
                         <li key={index} className='mx-2'>{language}</li>
                     ))}
                 </ul>
-                <a href="/">
+                <a href='#project'>
                     <p className='text-center p-3 rounded-lg bg-primary-400 text-primary-600 font-bold cursor-pointer text-lg'>Lisätietoa</p>
                 </a>
             </div>

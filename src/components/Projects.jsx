@@ -4,27 +4,28 @@ import woodImg from '../assets/metsä.png'
 import campImg from '../assets/nuotio.png'
 import mailImg from '../assets/postimies.png'
 import storageImg from '../assets/varasto.png'
+import appImg from '../assets/app.png'
 
 const projectData = [
     {
-        img: woodImg,
-        title: 'WoodImg',
-        languages: ['JavaScript', 'Python', 'Java']
-    },
-    {
-        img: campImg,
-        title: 'CampImg',
-        languages: ['JavaScript']
-    },
-    {
-        img: storageImg,
-        title: 'StorageImg',
-        languages: ['HTML', 'Css']
+        img: appImg,
+        title: 'Portfoliosivut',
+        languages: ['React', 'TailwindCSS', 'Vite', 'Html']
     },
     {
         img: mailImg,
-        title: 'MailImg',
-        languages: ['Css', 'Java']
+        title: 'Tulossa',
+        languages: ['Pascal']
+    },
+    {
+        img: mailImg,
+        title: 'Tulossa',
+        languages: ['Pascal']
+    },
+    {
+        img: mailImg,
+        title: 'Tulossa',
+        languages: ['Pascal']
     }
 ]
 
