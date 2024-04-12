@@ -18,8 +18,10 @@ This repository contains all the code for my portfolio website, built entirely f
 
 - Html5
 - CSS3
-- JavaScript
-
+- Tailwindcss
+- React
+- Vite
+  
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
@@ -29,6 +31,6 @@ This project is licensed under the [MIT License](LICENSE.md).
 If you have any questions or suggestions regarding the project, feel free to contact me:
 
 - Email: onni.salomaa@saunalahti.fi
-- Linkedin:
+- Linkedin: 
 
 Happy coding!
