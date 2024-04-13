@@ -10,22 +10,26 @@ const projectData = [
     {
         img: appImg,
         title: 'Portfoliosivut',
-        languages: ['React', 'TailwindCSS', 'Vite', 'Html']
+        languages: ['React', 'TailwindCSS', 'Vite', 'Html'],
+        link: 'https://github.com/Salonj/onnikoodaa/'
     },
     {
         img: mailImg,
         title: 'Tulossa',
-        languages: ['Pascal']
+        languages: ['Pascal'],
+        link: 'https://github.com/Salonj/'
     },
     {
         img: mailImg,
         title: 'Tulossa',
-        languages: ['Pascal']
+        languages: ['Pascal'],
+        link: 'https://github.com/Salonj/'
     },
     {
         img: mailImg,
         title: 'Tulossa',
-        languages: ['Pascal']
+        languages: ['Pascal'],
+        link: 'https://github.com/Salonj/onnikoodaa/'
     }
 ]
 
@@ -43,6 +47,7 @@ const Projects = () => {
                         img={project.img}
                         title={project.title}
                         languages={project.languages}
+                        link={project.link}
                     />
                 ))}
             </div>

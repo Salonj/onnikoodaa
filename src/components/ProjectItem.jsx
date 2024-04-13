@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectItem = ({ img, title, languages }) => {
+const ProjectItem = ({ img, title, languages, link}) => {
     return (
         <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-primary-400 rounded-xl group hover:bg-gradient-to-r'>
             <img src={img} className='rounded-xl group-hover:opacity-10'/>
@@ -13,7 +13,7 @@ const ProjectItem = ({ img, title, languages }) => {
                         <li key={index} className='mx-2'>{language}</li>
                     ))}
                 </ul>
-                <a href='#project'>
+                <a href={link} target='_blank'>
                     <p className='text-center p-3 rounded-lg bg-primary-400 text-primary-600 font-bold cursor-pointer text-lg'>Lisätietoa</p>
                 </a>
             </div>
