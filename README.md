@@ -10,7 +10,7 @@
   <h1 align="center">🚀Portfolio website</h1>
 
   <p align="center">
-    This repository contains the codebase for my personal portfolio site, where I showcase my projects, skills, and experience.
+    This repository contains the codebase for my old portfolio site, where I showcase my projects, skills, and experience.
     <br />
     <br />
     <a href="https://github.com/Salonj/onnikoodaa"><strong>Explore the docs »</strong></a>
